@@ -18,17 +18,19 @@ img {
   }
   
   body {
-    background-image: url("../images/battle-black-blur-260024.jpg");
+    background-image: url(../images/QUEENS.png);
     background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Karla', sans-serif;
+    
   }
   
   h1 {
     text-align: center;
-    color: white;
+    color: purple !important;
     font-weight: bolder;
     padding: 20px;
-    font-size: 45px;
+    font-size: 50px;
   }
   
   p {
@@ -44,12 +46,14 @@ img {
   }
   
   .container {
-    margin: 10px auto;
+    margin: 50px auto;
     background-color: rgba(255, 255, 255, 0.7);
     border: 2px solid #403fd3;
     height: 500px;
     width: 60%;
     text-align: center;
+    padding-bottom: 30%;
+    padding-top: 5%;
   }
   
   .btn {

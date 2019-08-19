@@ -5,6 +5,26 @@ $(document).ready(function () {
             choice: ["Sherrie Cronin", "Edith Wharton", "J.K. Rowling", "Elizabeth Blackwell"],
             answer: 3,
             photo: "assets/images/harrypotter.gif"
+        }, 
+            {
+                question: "Race barriers were broken by her in both tennis and golf", 
+               choice: ["Serena Williams", "Althea Gibson", "Martina Navratilova", "Margaret Court"],
+               answer: 2,
+              photo: "assets/images/tennis.gif"
+            }, 
+            {
+                question: "Media mogul who has had her own tv show, magazine, tv station and school", 
+               choice: ["Ellen", "Tyra Banks", "Barbara Walters", "Oprah"],
+               answer: 4,
+               photo: "assets/images/Oprah.gif"
+           }, 
+           {
+               question: "She will have you cooking up a feast in 30 minutes or less", 
+               choice: ["Rachael Ray", "Giada de Laurentiis", "Padma Lakshmi", "Julia Child"],
+               answer: 1,
+              photo: "assets/images/rachelgif.gif"
+           
+            
          }];
 
         var correctCount =0;
@@ -50,7 +70,8 @@ $(document).ready(function () {
                 hidepicture();
             
         }
-
+    
+        }
         function stop() {
             running = false;
             clearInterval(intervalId);
@@ -91,7 +112,7 @@ $(document).ready(function () {
                                 hidepicture();
                             }
                         })
-                    }
+                    
 
                         function hidepicture () {
                             $("#answerarea").append("<img src=" + pick.photo + ">");
