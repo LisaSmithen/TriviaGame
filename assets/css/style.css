@@ -1,8 +1,19 @@
 img {
-    max-height: 250px;
+    max-height: 100px;
     width: auto;
+    position: relative;
   }
   
+  .queen {
+    margin-top: 2%;
+     }
+
+  .design {
+    background-color: bisque;
+    margin-top: -6%;
+   
+  }
+
   #answerarea {
     text-align: center;
   
@@ -18,10 +29,11 @@ img {
   }
   
   body {
-    background-image: url(../images/QUEENS.png);
-    background-size: cover;
+    background-color: rebeccapurple !important;
+   background-size: 100% !important;
     background-repeat: no-repeat;
     font-family: 'Karla', sans-serif;
+   
     
   }
   
@@ -36,7 +48,7 @@ img {
   p {
     margin: 10px;
     font-weight: bold;
-    color: red;
+    color: black;
     font-size: 20px;
   }
   
@@ -48,7 +60,7 @@ img {
   .container {
     margin: 50px auto;
     background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid #403fd3;
+    border: 4px solid #d60b60;
     height: 500px;
     width: 60%;
     text-align: center;
@@ -58,6 +70,10 @@ img {
   
   .btn {
     position: relative;
-    bottom: -150px;
-    
+    bottom: -80px;
+   
+  }
+
+  #start {
+  background-color: rgb(77, 4, 34) !important;
   }

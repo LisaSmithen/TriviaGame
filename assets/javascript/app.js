@@ -41,7 +41,7 @@ $(document).ready(function () {
         var holder = [];
 
 
-//Start Game Over
+
         $("#reset").hide();
         $("#start").on("click", function () {
             $("#start").hide();
@@ -82,7 +82,7 @@ $(document).ready(function () {
                 pick = options[index];
 
                 
-                        $("#questionarea").html("<h2>" + pick.question + "</h2>");
+                        $("#questionarea").html("<h3>" + pick.question + "</h3>");
                         for(var i = 0; i < pick.choice.length; i++) {
                             var userChoice = $("<div>");
                             userChoice.addClass("answerchoice");
@@ -123,7 +123,7 @@ $(document).ready(function () {
                                 $("#answerarea").empty();
                                 timer= 20;
                         
-                            //run the score screen if all questions answered
+                           
                             if ((wrongCount + correctCount + unanswerCount) === qCount) {
                                 $("#questionarea").empty();
                                 $("#questionarea").html("<h3>The Game Is Over!  Lets See If You Knew Who Runs The World : </h3>");
