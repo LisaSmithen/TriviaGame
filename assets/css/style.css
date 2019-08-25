@@ -81,10 +81,13 @@ img {
   #reset {
     position: relative;
     bottom: 60px;
+    background-color: #500424;
+    border-color: palevioletred;
   }
 
   #start {
     background-color: #500424;
+    border-color: palevioletred;
   }
 
   #decorate {
