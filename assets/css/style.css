@@ -29,10 +29,13 @@ img {
   }
   
   body {
-    background-color: rebeccapurple !important;
+    background-image: url(../images/warriors.jpeg);
    background-size: 100% !important;
-    background-repeat: no-repeat;
+    background-repeat: round;
     font-family: 'Karla', sans-serif;
+    margin-right: 20% !important;
+    margin-left: 20% !important;
+    margin-top: 10% !important;
    
     
   }
@@ -41,8 +44,9 @@ img {
     text-align: center;
     color: purple !important;
     font-weight: bolder;
-    padding: 20px;
-    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    padding: 5px;
+    font-size: 60px !important;
   }
   
   p {
@@ -59,7 +63,7 @@ img {
   
   .container {
     margin: 50px auto;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: palevioletred;
     border: 4px solid #d60b60;
     height: 500px;
     width: 60%;
@@ -74,6 +78,16 @@ img {
    
   }
 
+  #reset {
+    position: relative;
+    bottom: 60px;
+  }
+
   #start {
-  background-color: rgb(77, 4, 34) !important;
+    background-color: #500424;
+  }
+
+  #decorate {
+    background-color: plum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
